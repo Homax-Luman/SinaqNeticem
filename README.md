@@ -1,0 +1,2 @@
+# SinaqNeticem
+Guven Sinaq NEticeleri
