@@ -2,7 +2,7 @@ function checkNumber() {
   const isNomresi = document.getElementById("isNomresi").value;
   const redirectPages = {
     "7450351": "esas.html",
-    "7456315": "xkas.html",
+    "8921189": "ayxan.html",
     // Buraya digər kodlar və uyğun faylları əlavə edə bilərsiniz.
   };
 
