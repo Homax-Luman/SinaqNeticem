@@ -6,8 +6,6 @@ function checkNumber(event) {
     // Şifrə ilə HTML faylları arasında əlaqə yaradırıq
     const htmlFiles = {
         "7450351": "esas.html",
-        "2345678": "file2.html",
-        "3456789": "file3.html",
         // Burada yeni şifrə-fayl cütləri əlavə edə bilərsən
     };
 
