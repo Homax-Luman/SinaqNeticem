@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("image/arkaplan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  text-align: center !important;
+  background: #2c314a;
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+select,
+input {
+  background: #394065;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #b8b8b8;
+}
+
+button {
+  background: #308dff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #1b69cc;
+}
+
+h4 {
+  color: #fff !important;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0.5cm;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+h1 {
+  color: #fff !important;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0.5cm;
+  font-weight: 500;
+  line-height: 1;
+  display: block;
+  margin-block-start: 0.5cm;
+  margin-block-end: 0.01cm;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
