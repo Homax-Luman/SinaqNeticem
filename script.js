@@ -1,7 +1,13 @@
 function checkNumber() {
   const isNomresi = document.getElementById("isNomresi").value;
-  if (isNomresi.length === 7 && !isNaN(isNomresi)) {
-    window.location.href = "esas.html";
+  const redirectPages = {
+    "7450351": "esas.html",
+    "7456315": "xkas.html",
+    // Buraya digər kodlar və uyğun faylları əlavə edə bilərsiniz.
+  };
+
+  if (isNomresi.length === 7 && !isNaN(isNomresi) && redirectPages[isNomresi]) {
+    window.location.href = redirectPages[isNomresi];
   } else {
     alert("Zəhmət olmasa düzgün 7 rəqəmli iş nömrəsini daxil edin!");
   }
