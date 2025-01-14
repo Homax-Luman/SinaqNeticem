@@ -3,6 +3,7 @@ function checkNumber() {
   const redirectPages = {
     "7450351": "esas.html",
     "8921189": "ayxan.html",
+    "6408121": "usaq2.html",
     // Buraya digər kodlar və uyğun faylları əlavə edə bilərsiniz.
   };
 
